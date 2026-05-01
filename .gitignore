@@ -1,0 +1,46 @@
+# ===========================
+# Gradle
+# ===========================
+.gradle/
+build/
+out/
+
+# Gradle Wrapper (must be included in VCS)
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# ===========================
+# IDE
+# ===========================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+bin/
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs & Temp
+# ===========================
+*.log
+*.tmp
+*.temp
+
+# ===========================
+# Environment / Secrets
+# ===========================
+.env
+.env.*
+
+# ===========================
+# Downloaded Archives (project-specific)
+# ===========================
+gradle.zip
