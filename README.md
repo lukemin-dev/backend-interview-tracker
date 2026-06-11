@@ -79,6 +79,10 @@ curl "http://localhost:8080/api/questions?keyword=JVM"
 - `@WebMvcTest`와 JPA Auditing 충돌을 피하기 위한 설정 분리
 - 기본 설정과 로컬 진단 설정을 분리해 운영형 설정 감각을 드러냄
 
+## 면접 대비 문서
+
+프로젝트 설명 흐름, 문제 해결 과정, 면접 답변 포인트는 [`docs/interview-notes.md`](./docs/interview-notes.md)에 정리했습니다.
+
 ## 검증
 
 ```bash
